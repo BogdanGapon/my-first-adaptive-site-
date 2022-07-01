@@ -57,6 +57,8 @@ position: relative;
     top: 50%;
     left: 0;
     transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
     left: 12px;
 
 .modal-form-input:focus + & {

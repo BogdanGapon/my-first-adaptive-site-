@@ -48,14 +48,14 @@ margin-top: 10px;
 }
 
 .icon-wrapper {
+display: block;
 position: relative;
 
 }
 
 .modal-icon {
     position: absolute;
-    top: 50%;
-    left: 0;
+    top:50%;
     transform: translateY(-50%);
     -webkit-transform: translateY(-50%);
     -ms-transform: translateY(-50%);

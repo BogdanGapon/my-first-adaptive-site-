@@ -197,7 +197,22 @@
             <li class="item">
               <div class="box-computer-img">
                 <picture>
-                  <!-- <source srcset="./images/section-about-us/computer.jpg 1x, ./images/section-about-us/computer.jpg"/> -->
+                  <source
+                    srcset="
+                      ./images/section-about-us/computer.jpg    1x,
+                      ./images/section-about-us/computer@2x.jpg 2x,
+                      ./images/section-about-us/computer@3x.jpg 3x
+                    "
+                    type="image/jpeg"
+                  />
+                  <source
+                    srcset="
+                      ./images/section-about-us/computer.webp    1x,
+                      ./images/section-about-us/computer@2x.webp 2x,
+                      ./images/section-about-us/computer@3x.webp 3x
+                    "
+                    type="image/webp"
+                  />
                   <img
                     class="computer-img"
                     src="./images/section-about-us/computer.jpg"
@@ -211,13 +226,29 @@
             </li>
             <li class="item">
               <div class="box-computer-img">
-                <img
-                  class="computer-img"
-                  src="./images/section-about-us/notebook.jpg"
-                  alt="Ноутбук"
-                  width="370"
-                  height="294"
-                />
+                <picture>
+                  <source
+                    srcset="
+                      ./images/section-about-us/notebook.jpg    1x,
+                      ./images/section-about-us/notebook@2x.jpg 2x,
+                      ./images/section-about-us/notebook@3x.jpg 3x
+                    "
+                    type="image/jpeg" />
+                  <source
+                    srcset="
+                      ./images/section-about-us/notebook.webp    1x,
+                      ./images/section-about-us/notebook@2x.webp 2x,
+                      ./images/section-about-us/notebook@3x.webp 3x
+                    "
+                    type="image/webp" />
+                  <img
+                    class="computer-img"
+                    src="./images/section-about-us/notebook.jpg"
+                    alt="Ноутбук"
+                    width="370"
+                    height="294"
+                /></picture>
+
                 <p class="text-on-img">Мобильные приложения</p>
               </div>
             </li>
@@ -331,7 +362,6 @@
                   alt="Игорь Демьяненко"
                   class="portfolio-img"
                 />
-                <!-- sizes="(min-width: 1200px) 25vw,(min-width:768px) 50vw, 100vw" -->
               </picture>
               <div class="text-wrapper">
                 <h3 class="text-wrapper__title">Игорь Демьяненко</h3>
@@ -428,7 +458,7 @@
                   class="portfolio-img"
                 />
               </picture>
-              <!-- sizes="(min-width: 1200px) 25vw, (min-width:768px) 50vw, 100vw" -->
+
               <div class="text-wrapper">
                 <h3 class="text-wrapper__title">Ольга Репина</h3>
                 <p class="text-wrapper__job-title" lang="en">Frontend Developer</p>
@@ -523,7 +553,6 @@
                   alt="Николай Тарасов"
                   class="portfolio-img"
                 />
-                <!-- sizes="(min-width: 1200px) 25vw, (min-width:768px) 50vw, 100vw" -->
               </picture>
               <div class="text-wrapper">
                 <h3 class="text-wrapper__title">Николай Тарасов</h3>
@@ -616,7 +645,7 @@
                 />
                 <img src="./images/photo-4.jpg" alt="Михаил Ермаков" class="portfolio-img" />
               </picture>
-              <!-- sizes="(min-width: 1200px) 25vw, (min-width:768px) 50vw, 100vw" -->
+
               <div class="text-wrapper">
                 <h3 class="text-wrapper__title">Михаил Ермаков</h3>
                 <p class="text-wrapper__job-title" lang="en">UI Designer</p>
